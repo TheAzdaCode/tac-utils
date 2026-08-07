@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tac-utils"
+version = "0.1.0"
+authors = [
+    {name = "Arsenij Peyzazhnij", email = "ваша-почта@example.com"},
+]
+description = "Утилиты для консольных приложений: цвета, стили, ввод, меню"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+
+[project.urls]
+Homepage = "https://github.com/TheAzdaCode/tac-utils"
+Repository = "https://github.com/TheAzdaCode/tac-utils"
+Issues = "https://github.com/TheAzdaCode/tac-utils/issues"
+
+[tool.setuptools.packages.find]
+where = ["src"]
