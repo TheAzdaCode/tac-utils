@@ -1,7 +1,3 @@
-
- 
-
-```python
 # tac_utils/color.py — цветной вывод в консоли
 
 class _Color:
