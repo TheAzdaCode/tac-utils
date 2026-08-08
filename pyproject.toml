@@ -25,3 +25,4 @@ Issues = "https://github.com/TheAzdaCode/tac-utils/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
+EOF
